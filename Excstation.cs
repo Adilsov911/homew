@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp26
 {
-    internal class Excstation
+    public static class Excstation
     {
+        public static bool ChekNotRobotCode(this string notRobotCode)
+        {
+            if (notRobotCode.Length == 4)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        
+          
+        }
+
     }
 }
